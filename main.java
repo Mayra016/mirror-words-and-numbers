@@ -1,11 +1,11 @@
 public class Main {
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 	    String hola = "hola";
 	    System.out.println(revertWord(hola));
 	    System.out.println(sortDesc(1021));
-	}
+   }
 	
-	public static String revertWord(String word) {
+   public static String revertWord(String word) {
       String reverse = "";
       for (int i = word.length() -1; i >= 0; i--) {
           reverse = reverse.concat(Character.toString(word.charAt(i)));
